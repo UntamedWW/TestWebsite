@@ -1,0 +1,361 @@
+html {
+  height: auto 100%;
+  max-width: 100%;
+  min-width: 25%;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* navigation */
+
+.navigation {
+  max-width: 1438px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  padding: 15px 0 15px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  color: #807d7e;
+  text-decoration: none;
+  align-items: center;
+}
+
+.navigation-links li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.navigation a {
+  color: #807d7e;
+  text-decoration: none;
+}
+
+.navigation a.active {
+  color: #3c4242;
+  font-weight: bold;
+}
+
+/* Search */
+.container-search-button {
+  padding: 0;
+  padding-left: 76px;
+}
+
+.MuSuperInput {
+  height: 46px;
+  background-color: #f6f6f6;
+  border-style: none;
+  width: 267px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  height: 45px;
+  font-size: 20px;
+  padding: 0;
+  border-style: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: "REM";
+}
+
+/* picture navigation */
+.picture-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 6px;
+  align-items: center;
+}
+
+/* main body - banner */
+.Banner {
+  background-image: url(./Pictures/shop-hero-1-product-slide-1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 536px;
+}
+
+.banner-text {
+  width: 400px;
+  padding: 35px 0 0 230px;
+}
+
+.Banner h1 {
+  color: #fff;
+  font-family: "REM", sans-serif;
+  font-size: 70px;
+  font-style: bold;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.h2-banner {
+  color: #fff;
+  font-family: "REM";
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.Button-shop-now {
+  margin-top: 45px;
+  font-style: none;
+  border-radius: 8px;
+  width: 125px;
+  background: #fff;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+/* Deal section */
+
+.Deals {
+  margin: 75px 50px 0 50px;
+}
+
+.Deals ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.deal-one {
+  background-image: url(./Pictures/deal-one.png);
+  height: auto 100%;
+  width: 604.93px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+.deal-two {
+  background-image: url(./Pictures/deal-two.png);
+  height: 355px;
+  width: 604.93px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+.deal-text {
+  color: #fff;
+  font-family: "REM";
+  font-size: 20px;
+  padding: 67px 0 0 55px;
+  width: 264px;
+}
+
+.deal-text h2 {
+  margin: 0;
+}
+
+.deal-text p {
+  margin: 0 0 51px 0;
+}
+
+.sale-text {
+  font-family: Core Sans C;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 9px;
+  text-transform: uppercase;
+}
+
+.deal-text a {
+  color: #fff;
+  font-family: "REM";
+}
+
+/* New Arrival */
+.new-arrival-container {
+  margin: 90px 100px 0 100px;
+}
+
+.new-arrival-container h3 {
+  width: 400px;
+  height: 31px;
+  padding-bottom: 25px;
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 39px;
+  letter-spacing: 0.68px;
+}
+
+.new-arrival-gallery {
+  margin: 0;
+  padding: 0 40px 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+/* Big Saving zone */
+/* 1 */
+
+.Big-saving-zone-section {
+  margin: 70px 100px 0 80px;
+}
+
+.Big-saving-zone-section h1 {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 20px;
+  color: #3c4242;
+  font-size: 34px;
+}
+
+.big-saving-zone-gallery {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  list-style: none;
+  font-family: Core Sans C;
+}
+
+.Big-saving-zone-section-1 {
+  background-image: url(./Pictures/Big-saving-zone/Rectangle-74.png);
+  height: 390px;
+  width: 420px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  padding: 30px 0 0 20px;
+  color: #fff;
+  font-family: Core Sans C;
+  font-style: normal;
+  line-height: 38.431px; /* 137.255% */
+  letter-spacing: 0.56px;
+}
+
+.Big-saving-zone-section-1-text {
+  width: 200px;
+  margin: 24px 0 0 0;
+}
+
+/* 2 */
+.Big-saving-zone-section-2 {
+  background-image: url(./Pictures/Big-saving-zone/Rectangle-75.png);
+  height: 390px;
+  width: 420px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  padding: 34px 0 0 20px;
+  color: #fff;
+  font-family: Core Sans C;
+  font-style: normal;
+  line-height: 38.431px; /* 137.255% */
+  letter-spacing: 0.56px;
+}
+
+.Big-saving-zone-section-2-text {
+  width: 200px;
+  margin: 24px 0 0 130px;
+  text-align: right;
+  margin-top: 60px;
+}
+
+/* 3 */
+.Big-saving-zone-section-3 {
+  background-image: url(./Pictures/Big-saving-zone/Rectangle-76.png);
+  height: 390px;
+  width: 420px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  padding: 24px 0 0 20px;
+  color: #fff;
+  font-family: Core Sans C;
+  font-style: normal;
+  line-height: 38.431px; /* 137.255% */
+  letter-spacing: 0.56px;
+}
+
+.Big-saving-zone-section-3-text {
+  width: 200px;
+  margin: 24px 0 0 160px;
+  text-align: right;
+  margin-top: 60px;
+}
+
+.Big-saving-zone-section h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.Big-saving-zone-section h3 {
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.Big-saving-zone-section p {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 20;
+  margin: 0;
+}
+
+.Big-saving-zone-section-button-form {
+  text-align: center;
+}
+
+.Big-saving-zone-section-button {
+  display: flex;
+  width: 111px;
+  color: #f6f6f6;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  font-size: 16px;
+  margin-top: 25%;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+
+.Big-saving-zone-section-button-form-black {
+  text-align: center;
+}
+
+.Big-saving-zone-section-button-black {
+  display: flex;
+  width: 111px;
+  color: #3c4242;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: #3c4242;
+  font-size: 14px;
+  margin-top: 94.5px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
