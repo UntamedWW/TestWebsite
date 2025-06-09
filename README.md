@@ -2,11 +2,10 @@
 <a href="https://flutter.dev/">
   <h1 align="center">
     <picture>
-      <img alt="Website" src="\https://github.com/user-attachments/assets/40f6f9ee-8301-4710-95e2-fc290d29e468">
+      <img alt="Website" src="https://github.com/user-attachments/assets/b157a8a0-42cc-4b75-87ac-27e9aabe8116">
     </picture>
   </h1>
-</a>!
-
+</a>
 
 # Euphoria – Fashion Store Landing Page
 
