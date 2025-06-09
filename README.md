@@ -14,12 +14,6 @@ The goal was to recreate a modern e-commerce landing page with navigation, hero 
 
 ---
 
-## Preview  
-
-![Homepage screenshot](docs/euphoria_home.png)
-
----
-
 ## Features
 
 * **Responsive navigation bar** with links for Shop, Men, Women, Combos, Joggers and a search field.  
